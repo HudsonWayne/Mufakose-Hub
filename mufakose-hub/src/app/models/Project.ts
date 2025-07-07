@@ -1,4 +1,4 @@
-import mongoose, { Schema, models, model } from "mongoose";
+import mongoose, { Schema, model, models } from "mongoose";
 
 const ProjectSchema = new Schema({
   title: String,
